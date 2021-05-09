@@ -1,0 +1,26 @@
+# https://leetcode.com/problems/n-ary-tree-level-order-traversal/
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val=None, children=None):
+        self.val = val
+        self.children = children
+"""
+
+
+class Solution:
+    def levelOrder(self, root: 'Node') -> List[List[int]]:
+        if root == None:
+            return []
+        self.result = []
+        self.traversal(root, 0)
+        return self.result
+        
+    def traversal(self, root, level):
+        if level >= len(self.result):
+            self.result.append([])
+        self.result[level].append(root.val)
+
+        for child in root.children:
+            self.traversal(child, level + 1)

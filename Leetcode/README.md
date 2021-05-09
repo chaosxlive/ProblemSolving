@@ -33,7 +33,9 @@
 | 0039. Combination Sum                                        | 90.69% / 52ms       | 98.28% / 14.1MB    | Accepted | Python3 | 04/19/2021 17:21 | Backtracking Optimzed                        |
 | 0040. Combination Sum II                                     | 56.48% / 76ms       | 74.48% / 14.3MB    | Accepted | Python3 | 04/19/2021 20:17 | Dynamic Programming                          |
 | 0040. Combination Sum II                                     | 98.74% / 36ms       | 74.48% / 14.2MB    | Accepted | Python3 | 04/19/2021 22:49 | Backtracking                                 |
+| 0045. Jump Game II                                           | 96.94% / 24ms       | 54.35% / 14.2MB    | Accepted | Python3 | 05/06/2021 10:20 |                                              |
 | 0048. Rotate Image                                           | 94.75% / 28ms       | 61.01% / 14.3MB    | Accepted | Python3 | 04/26/2021 10:25 |                                              |
+| 0055. Jump Game                                              | 99.42% / 72ms       | 15.23% / 16.2MB    | Accepted | Python3 | 05/05/2021 19:46 |                                              |
 | 0062. Unique Paths                                           | 95.73% / 24ms       | 38.75% / 14.3MB    | Accepted | Python3 | 04/30/2021 11:20 |                                              |
 | 0063. Unique Paths II                                        | 93.52% / 36ms       | 60.77% / 14.4MB    | Accepted | Python3 | 04/30/2021 11:40 |                                              |
 | 0070. Climbing Stairs                                        | 98.69% / 20ms       | 72.49% / 14.2MB    | Accepted | Python3 | 04/16/2021 23:32 |                                              |
@@ -42,18 +44,28 @@
 | 0088. Merge Sorted Array                                     | 88.16% / 32ms       | 63.26% / 14.3MB    | Accepted | Python3 | 04/27/2021 14:10 |                                              |
 | 0090. Subsets II                                             | 98.04% / 28ms       | 26.14% / 14.6MB    | Accepted | Python3 | 04/21/2021 04:10 |                                              |
 | 0100. Same Tree                                              | 94.19% / 24ms       | 31.18% / 14.4MB    | Accepted | Python3 | 04/27/2021 19:12 |                                              |
+| 0102. Binary Tree Level Order Traversal                      | 53.84% / 36ms       | 22.32% / 14.8MB    | Accepted | Python3 | 05/06/2021 16:18 |                                              |
+| 0108. Convert Sorted Array to Binary Search Tree             | 99.02% / 48ms       | 19.04% / 15.8MB    | Accepted | Python3 | 05/06/2021 23:10 |                                              |
+| 0109. Convert Sorted List to Binary Search Tree              | 37.25% / 136ms      | 59.91% / 20.2MB    | Accepted | Python3 | 05/06/2021 23:39 | Fast & Slow Pointer                          |
+| 0109. Convert Sorted List to Binary Search Tree              | 98.45% / 116ms      | 31.87% / 20.5MB    | Accepted | Python3 | 05/06/2021 23:56 | Convert to Array                             |
 | 0112. Path Sum                                               | 80.37% / 40ms       | 89.80% / 15.8MB    | Accepted | Python3 | 04/20/2021 00:20 |                                              |
 | 0113. Path Sum II                                            | 97.46% / 36ms       | 42.38% / 19MB      | Accepted | Python3 | 04/20/2021 00:33 | DFS                                          |
 | 0118. Pascal's Triangle                                      | 81.58% / 28ms       | 99.32% / 14MB      | Accepted | Python3 | 05/04/2021 17:29 |                                              |
 | 0119. Pascal's Triangle II                                   | 83.53% / 28ms       | 98.89% / 13.9MB    | Accepted | Python3 | 05/04/2021 17:45 |                                              |
 | 0120. Triangle                                               | N/A                 | N/A                | TLE      | Python3 | 04/22/2021 10:22 | DFS                                          |
 | 0120. Triangle                                               | 81.88% / 56ms       | 44.92% / 15.1MB    | Accepted | Python3 | 04/22/2021 21:29 |                                              |
+| 0125. Valid Palindrome                                       | 11.14% / 68ms       | 81.13% / 14.6MB    | Accepted | Python3 | 05/09/2021 01:26 | Two Pointer                                  |
+| 0125. Valid Palindrome                                       | 73.91% / 44ms       | 49.39% / 14.8MB    | Accepted | Python3 | 05/09/2021 01:35 | Filter & Reverse                             |
 | 0155. Min Stack                                              | 99.11% / 48ms       | 60.86% / 18.1MB    | Accepted | Python3 | 04/18/2021 12:22 |                                              |
+| 0193. Valid Phone Numbers                                    | 100.00% / 0ms       | 53.15% / 3.1MB     | Accepted | Bash    | 05/09/2021 19:20 | GREP                                         |
+| 0195. Tenth Line                                             | 74.83% / 4ms        | 33.81% / 3.6MB     | Accepted | Bash    | 05/09/2021 19:09 | SED                                          |
 | 0216. Combination Sum III                                    | 62.35% / 32ms       | 83.85% / 14.2MB    | Accepted | Python3 | 04/19/2021 23:01 | DFS                                          |
 | 0234. Palindrome Linked List                                 | 22.63% / 856ms      | 37.30% / 47.3MB    | Accepted | Python3 | 04/14/2021 13:01 | Brute Force                                  |
 | 0234. Palindrome Linked List                                 | 49.94% / 808ms      | 49.27% / 47MB      | Accepted | Python3 | 04/14/2021 13:23 | Fast & Slow Pointer                          |
 | 0234. Palindrome Linked List                                 | 77.05% / 688ms      | 82.51% / 31.3MB    | Accepted | Python3 | 04/14/2021 14:18 | Fast & Slow Pointer Reverse List             |
 | 0207. Course Schedule                                        | 99.31% / 84ms       | 53.48% / 16.4MB    | Accepted | Python3 | 05/02/2021 19:10 | DFS                                          |
+| 0217. Contains Duplicate                                     | 99.13% / 104ms      | 80.22% / 20.1MB    | Accepted | Python3 | 05/08/2021 01:37 |                                              |
+| 0219. Contains Duplicate II                                  | 88.47% / 88ms       | 24.99% / 21.8MB    | Accepted | Python3 | 05/08/2021 01:44 |                                              |
 | 0278. First Bad Version                                      | 76.38% / 28ms       | 73.69% / 14.1MB    | Accepted | Python3 | 04/30/2021 12:07 | Binary Search                                |
 | 0283. Move Zeroes                                            | 91.07% / 44ms       | 61.79% / 15.4MB    | Accepted | Python3 | 04/27/2021 16:34 |                                              |
 | 0319. Bulb Switcher                                          | 98.16% / 20ms       | 63.25% / 14.2MB    | Accepted | Python3 | 04/17/2021 12:59 | Perfect Square                               |
@@ -61,9 +73,11 @@
 | 0341. Flatten Nested List Iterator                           | 92.79% / 60ms       | 71.45% / 17.6MB    | Accepted | Python3 | 04/14/2021 12:44 | Prebuilt List                                |
 | 0342. Power of Four                                          | 99.12% / 20ms       | 68.51% / 14.2MB    | Accepted | Python3 | 05/01/2021 00:12 | Bit Comparison                               |
 | 0344. Reverse String                                         | 87.88% / 188ms      | 70.72% / 18.6MB    | Accepted | Python3 | 04/21/2021 00:21 |                                              |
+| 0345. Reverse Vowels of a String                             | 54.79% / 56ms       | 36.94% / 15.2MB    | Accepted | Python3 | 05/09/2021 17:13 | Two Pointer                                  |
 | 0377. Combination Sum IV                                     | 96.94% / 32ms       | 84.09% / 14.2MB    | Accepted | Python3 | 04/20/2021 00:03 | Dynamic Programming                          |
 | 0405. Convert a Number to Hexadecimal                        | 93.89% / 24ms       | 98.05% / 14MB      | Accepted | Python3 | 04/18/2021 13:42 |                                              |
 | 0414. Third Maximum Number                                   | 95.52% / 44ms       | 99.61% / 15MB      | Accepted | Python3 | 04/20/2021 23:58 | Set                                          |
+| 0429. N-ary Tree Level Order Traversal                       | 85.29% / 48ms       | 61.57% / 16MB      | Accepted | Python3 | 05/06/2021 16:12 |                                              |
 | 0437. Path Sum III                                           | 34.52% / 436ms      | 5.56% / 35.3MB     | Accepted | Python3 | 04/20/2021 01:20 | DFS Stack                                    |
 | 0437. Path Sum III                                           | 82.17% / 48ms       | 90.71% / 15.1MB    | Accepted | Python3 | 04/20/2021 02:39 | DFS Hashmap                                  |
 | 0448. Find All Numbers Disappeared in an Array               | 75.74% / 336ms      | 38.73% / 24MB      | Accepted | Python3 | 04/27/2021 19:23 |                                              |
@@ -77,15 +91,23 @@
 | 0557. Reverse Words in a String III                          | 97.76% / 24ms       | 71.96% / 14.7MB    | Accepted | Python3 | 04/21/2021 01:26 |                                              |
 | 0560. Subarray Sum Equals K                                  | 98.95% / 236ms      | 60.46% / 16.8MB    | Accepted | Python3 | 04/17/2021 23:25 | Hashmap                                      |
 | 0567. Permutation in String                                  | 75.43% / 68ms       | 63.47% / 14.3MB    | Accepted | Python3 | 04/17/2021 00:22 |                                              |
+| 0583. Delete Operation for Two Strings                       | 35.74% / 336ms      | 82.06% / 16MB      | Accepted | Python3 | 05/08/2021 01:29 | Dynamic Programming                          |
 | 0589. N-ary Tree Preorder Traversal                          | 80.92% / 48ms       | 63.08% / 16MB      | Accepted | Python3 | 04/20/2021 15:30 |                                              |
-| 0595. Big Countries                                          | 95.08% / 214ms      | 100.00% / 0B       | Accepted | Python3 | 04/20/2021 23:26 |                                              |
+| 0590. N-ary Tree Postorder Traversal                         | 93.81% / 44ms       | 90.46% / 16MB      | Accepted | Python3 | 05/06/2021 15:21 |                                              |
+| 0595. Big Countries                                          | 95.08% / 214ms      | 100.00% / 0B       | Accepted | MySQL   | 04/20/2021 23:26 |                                              |
+| 0626. Exchange Seats                                         | 87.60% / 231ms      | 100.00% / 0B       | Accepted | MySQL   | 05/09/2021 19:04 |                                              |
 | 0627. Swap Salary                                            | 79.62% / 196ms      | 100.00% / 0B       | Accepted | MySQL   | 04/21/2021 04:19 |                                              |
 | 0630. Course Schedule III                                    | 87.74% / 680ms      | 50.97% / 19.4MB    | Accepted | Python3 | 05/03/2021 11:54 | Max Heap                                     |
+| 0657. Robot Return to Origin                                 | 71.47% / 52ms       | 92.15% / 14.2MB    | Accepted | Python3 | 05/05/2021 01:42 | Simulation                                   |
+| 0657. Robot Return to Origin                                 | 97.88% / 28ms       | 92.15% / 14.3MB    | Accepted | Python3 | 05/05/2021 01:44 | Count Char                                   |
 | 0661. Image Smoother                                         | 97.09% / 448ms      | 54.69% / 14.9MB    | Accepted | Python3 | 04/26/2021 14:36 |                                              |
 | 0665. Non-decreasing Array                                   | 89.49% / 176ms      | 23.13% / 15.5MB    | Accepted | Python3 | 05/04/2021 15:59 |                                              |
 | 0677. Map Sum Pairs                                          | 89.65% / 28ms       | 54.23% / 14.3MB    | Accepted | Python3 | 04/17/2021 02:00 |                                              |
+| 0680. Valid Palindrome II                                    | 45.71% / 172ms      | 72.38% / 14.6MB    | Accepted | Python3 | 05/09/2021 01:42 | Two Pointer                                  |
 | 0696. Count Binary Substrings                                | N/A                 | N/A                | TLE      | Python3 | 04/24/2021 12:42 | Brute Force                                  |
 | 0696. Count Binary Substrings                                | 74.40% / 160ms      | 74.01% / 14.6MB    | Accepted | Python3 | 04/24/2021 13:22 | One Pass                                     |
+| 0700. Search in a Binary Search Tree                         | 99.49% / 60ms       | 14.51% / 16.2MB    | Accepted | Python3 | 05/07/2021 22:21 |                                              |
+| 0704. Binary Search                                          | 96.69% / 224ms      | 28.00% / 15.7MB    | Accepted | Python3 | 05/07/2021 22:44 |                                              |
 | 0705. Design HashSet                                         | 98.10% / 136ms      | 22.33% / 20.2MB    | Accepted | Python3 | 05/03/2021 12:14 | Bytearray                                    |
 | 0706. Design HashMap                                         | 28.74% / 368ms      | 8.56% / 39.9MB     | Accepted | Python3 | 05/03/2021 12:24 | Space                                        |
 | 0706. Design HashMap                                         | 5.01% / 7444ms      | 69.29% / 17.4MB    | Accepted | Python3 | 05/03/2021 22:31 | Linked List                                  |
@@ -102,10 +124,15 @@
 | 0832. Flipping an Image                                      | 94.00% / 44ms       | 57.23% / 14.2MB    | Accepted | Python3 | 04/21/2021 03:56 |                                              |
 | 0836. Rectangle Overlap                                      | 80.46% / 28ms       | 45.56% / 14.2MB    | Accepted | Python3 | 04/18/2021 13:19 |                                              |
 | 0870. Advantage Shuffle                                      | 27.64% / 376ms      | 77.61% / 17.2MB    | Accepted | Python3 | 05/04/2021 16:56 | Sorted                                       |
+| 0897. Increasing Order Search Tree                           | 84.91% / 28ms       | 98.27% / 14MB      | Accepted | Python3 | 05/05/2021 01:26 |                                              |
 | 0905. Sort Array By Parity                                   | 98.42% / 68ms       | 55.81% / 15.1MB    | Accepted | Python3 | 04/22/2021 23:51 |                                              |
+| 0906. Super Palindromes                                      | 33.33% / 1820ms     | 43.59% / 14.4MB    | Accepted | Python3 | 05/08/2021 22:06 | Build Up                                     |
+| 0925. Long Pressed Name                                      | 96.23% / 24ms       | 94.70% / 14.1MB    | Accepted | Python3 | 05/09/2021 14:45 |                                              |
 | 0938. Range Sum of BST                                       | 92.57% / 196ms      | 58.18% / 22.3MB    | Accepted | Python3 | 04/17/2021 17:38 |                                              |
 | 0941. Valid Mountain Array                                   | 83.36% / 196ms      | 82.25% / 15.5MB    | Accepted | Python3 | 04/27/2021 16:03 |                                              |
+| 0942. DI String Match                                        | 80.54% / 60ms       | 18.03% / 15.3MB    | Accepted | Python3 | 05/06/2021 15:15 |                                              |
 | 0944. Delete Columns to Make Sorted                          | 86.21% / 112ms      | 31.17% / 15MB      | Accepted | Python3 | 04/18/2021 12:33 |                                              |
+| 0961. N-Repeated Element in Size 2N Array                    | 96.97% / 188ms      | 67.71% / 15.6MB    | Accepted | Python3 | 05/05/2021 01:32 |                                              |
 | 0970. Powerful Integers                                      | 88.33% / 28ms       | 65.42% / 14.2MB    | Accepted | Python3 | 04/30/2021 23:46 |                                              |
 | 0977. Squares of a Sorted Array                              | 55.04% / 228ms      | 32.26% / 16.2MB    | Accepted | Python3 | 04/27/2021 12:57 | Two Pointer (Inside to Outside)              |
 | 0977. Squares of a Sorted Array                              | 27.61% / 248ms      | 61.20% / 16.1MB    | Accepted | Python3 | 04/27/2021 13:10 | Heap                                         |
@@ -140,6 +167,7 @@
 | 1346. Check If N and Its Double Exist                        | 86.57% / 48ms       | 51.12% / 14.4MB    | Accepted | Python3 | 04/27/2021 15:55 |                                              |
 | 1351. Count Negative Numbers in a Sorted Matrix              | 90.85% / 112ms      | 46.81% / 15.1MB    | Accepted | Python3 | 04/26/2021 20:52 | Brute Force                                  |
 | 1351. Count Negative Numbers in a Sorted Matrix              | 97.54% / 108ms      | 18.20% / 15.2MB    | Accepted | Python3 | 04/27/2021 12:30 | Edge Check                                   |
+| 1354. Construct Target Array With Multiple Sums              | 96.35% / 240ms      | 81.02% / 20MB      | Accepted | Python3 | 05/09/2021 18:31 |                                              |
 | 1365. How Many Numbers Are Smaller Than the Current Number   | 99.12% / 44ms       | 14.28% / 14.4MB    | Accepted | Python3 | 04/17/2021 14:15 |                                              |
 | 1370. Increasing Decreasing String                           | 74.00% / 60ms       | 44.68% / 14.3MB    | Accepted | Python3 | 04/26/2021 13:55 |                                              |
 | 1374. Generate a String With Characters That Have Odd Counts | 92.92% / 24ms       | 66.32% / 14.3MB    | Accepted | Python3 | 05/04/2021 17:07 |                                              |
@@ -185,10 +213,17 @@
 | 1759. Count Number of Homogenous Substrings                  | 99.80% / 100ms      | 87.80% / 14.6MB    | Accepted | Python3 | 04/27/2021 15:34 |                                              |
 | 1768. Merge Strings Alternately                              | 94.23% / 24ms       | 50.46% / 14.3MB    | Accepted | Python3 | 05/04/2021 19:29 |                                              |
 | 1773. Count Items Matching a Rule                            | 93.65% / 232ms      | 89.17% / 20.5MB    | Accepted | Python3 | 04/14/2021 14:34 |                                              |
+| 1796. Second Largest Digit in a String                       | 77.28% / 36ms       | 79.56% / 14.1MB    | Accepted | Python3 | 05/09/2021 17:31 |                                              |
+| 1800. Maximum Ascending Subarray Sum                         | 94.81% / 28ms       | 47.47% / 14.2MB    | Accepted | Python3 | 05/09/2021 14:52 |                                              |
+| 1805. Number of Different Integers in a String               | 90.28% / 28ms       | 93.63% / 14.1MB    | Accepted | Python3 | 05/09/2021 13:40 |                                              |
 | 1812. Determine Color of a Chessboard Square                 | 96.50% / 24ms       | 70.72% / 14.1MB    | Accepted | Python3 | 04/16/2021 23:38 |                                              |
 | 1816. Truncate Sentence                                      | 95.72% / 24ms       | 53.65% / 14.2MB    | Accepted | Python3 | 04/21/2021 00:15 |                                              |
 | 1822. Sign of the Product of an Array                        | 99.96% / 44ms       | 39.04% / 14.4MB    | Accepted | Python3 | 04/15/2021 19:22 |                                              |
 | 1827. Minimum Operations to Make the Array Increasing        | 97.34% / 116ms      | 28.80% / 15.2MB    | Accepted | Python3 | 04/20/2021 13:30 |                                              |
 | 1832. Check if the Sentence Is Pangram                       | 100.00% / 36ms      | 100.00% / 14.3MB   | Accepted | Python3 | 04/20/2021 02:45 |                                              |
+| 1837. Sum of Digits in Base K                                | 95.92% / 24ms       | 92.03% / 14MB      | Accepted | Python3 | 05/05/2021 01:37 |                                              |
 | 1844. Replace All Digits with Characters                     | 99.92% / 16ms       | 73.65% / 14.1MB    | Accepted | Python3 | 05/04/2021 13:16 |                                              |
+| 1848. Minimum Distance to the Target Element                 | 90.22% / 52ms       | 69.02% / 14.4MB    | Accepted | Python3 | 05/09/2021 12:24 |                                              |
+| 1854. Maximum Population Year                                | 11.11% / 64ms       | 44.44% / 14.2MB    | Accepted | Python3 | 05/09/2021 10:38 |                                              |
+| 1855. Maximum Distance Between a Pair of Values              | 37.50% / 1164ms     | 12.50% / 32.2MB    | Accepted | Python3 | 05/09/2021 12:13 |                                              |
 
