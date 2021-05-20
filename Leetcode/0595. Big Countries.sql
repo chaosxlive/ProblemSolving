@@ -1,3 +1,4 @@
+-- https://leetcode.com/problems/big-countries/
 -- Write your MySQL query statement below
 
 -- Create table If Not Exists World (name varchar(255), continent varchar(255), area int, population int, gdp int)

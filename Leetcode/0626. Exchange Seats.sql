@@ -1,3 +1,4 @@
+-- https://leetcode.com/problems/exchange-seats/
 -- Write your MySQL query statement below
 
 -- Create table If Not Exists seat(id int, student varchar(255))

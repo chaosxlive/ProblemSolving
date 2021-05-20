@@ -1,3 +1,4 @@
+-- https://leetcode.com/problems/swap-salary/
 -- Write your MySQL query statement below
 
 -- create table if not exists salary(id int, name varchar(100), sex char(1), salary int)

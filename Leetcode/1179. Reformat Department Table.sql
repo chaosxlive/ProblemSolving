@@ -1,3 +1,4 @@
+-- https://leetcode.com/problems/reformat-department-table/
 -- Write your MySQL query statement below
 
 -- Create table If Not Exists Department (id int, revenue int, month varchar(5));
