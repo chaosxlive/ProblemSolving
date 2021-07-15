@@ -74,6 +74,24 @@
     * Q3: N/A
     * Q4: N/A
 
+* [Weekly Contest 248](https://leetcode.com/contest/weekly-contest-248)
+  * Rank: 2210 / 13720 (16.1%)
+  * Score: 11
+  * Time: 0:52:52	
+    * Q1: 0:01:39
+    * Q2: 0:13:25 (1)
+    * Q3: 0:42:52 (1)
+    * Q4: N/A
+
+* [Weekly Contest 249](https://leetcode.com/contest/weekly-contest-249)
+  * Rank: 5976 / 12832 (46.6%)
+  * Score: 3
+  * Time: 0:01:26	
+    * Q1: 0:01:26	
+    * Q2: N/A
+    * Q3: N/A
+    * Q4: N/A
+
 ## Biweekly Contest
 
 * [Biweekly Contest 52](https://leetcode.com/contest/biweekly-contest-52)
@@ -110,4 +128,13 @@
     * Q1: 0:16:16 (1)
     * Q2: 0:20:18
     * Q3: 1:01:22
+    * Q4: N/A
+
+* [Biweekly Contest 56](https://leetcode.com/contest/biweekly-contest-56)
+  * Rank: 595 / 10896 (5.4%)
+  * Score: 12
+  * Time: 1:00:25
+    * Q1: 0:04:46 (1)
+    * Q2: 0:13:53
+    * Q3: 0:55:25
     * Q4: N/A
