@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/find-if-path-exists-in-graph/
+
 class UnionFind:
     def __init__(self):
         self.parent = {}
@@ -22,3 +24,18 @@ class UnionFind:
                 groups[temp] = []
             groups[temp].append(i)
         return groups
+
+
+class Solution:
+    def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
+        if source == destination:
+            return True
+        uf = UnionFind()
+        seen = set()
+        for u, v in edges:
+            seen.add(u)
+            seen.add(v)
+            uf.union(u, v)
+        if source not in seen or destination not in seen:
+            return False
+        return uf.find(source) == uf.find(destination)
