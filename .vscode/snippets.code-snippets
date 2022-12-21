@@ -34,5 +34,24 @@
 		"scope": "python",
 		"prefix": "dir8",
 		"body": "dirs = ((-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1))"
+	},
+	"Generate union find structure": {
+		"scope": "python",
+		"prefix": "genUF",
+		"body": [
+			"uf = {}",
+			"",
+			"def find(x):",
+			"    if x not in uf:",
+			"        uf[x] = x",
+			"    elif uf[x] != x:",
+			"        uf[x] = find(uf[x])",
+			"    return uf[x]",
+			"",
+			"def union(x, y):",
+			"    rx, ry = find(x), find(y)",
+			"    if rx != ry:",
+			"        uf[rx] = ry"
+		]
 	}
 }
