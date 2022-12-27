@@ -23,3 +23,5 @@ class Solution:
                     if dfs(dirs, set(), board, word, row, col, 1):
                         return True
         return False
+
+# Possible TLE
