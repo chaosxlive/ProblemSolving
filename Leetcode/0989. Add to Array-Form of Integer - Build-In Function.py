@@ -2,4 +2,4 @@
 
 class Solution:
     def addToArrayForm(self, num: List[int], k: int) -> List[int]:
-        return str(int("".join(map(str, num))) + k)
+        return list(map(int, str(int("".join(map(str, num))) + k)))
