@@ -53,5 +53,39 @@
 			"    if rx != ry:",
 			"        uf[rx] = ry"
 		]
+	},
+	"SQL Select from":{
+		"scope": "sql",
+		"prefix": "SELECT_FROM",
+		"body": [
+			"SELECT",
+			"    $2",
+			"FROM",
+			"    $1"
+		]
+	},
+	"SQL Group by":{
+		"scope": "sql",
+		"prefix": "GROUPBY",
+		"body": "GROUP BY"
+	},
+	"SQL Order by":{
+		"scope": "sql",
+		"prefix": "ORDERBY",
+		"body": "ORDER BY"
+	},
+	"SQL CASE":{
+		"scope": "sql",
+		"prefix": "CASE",
+		"body": [
+			"CASE",
+			"    WHEN",
+			"        $1",
+			"    THEN",
+			"        $2",
+			"    ELSE",
+			"        $3",
+			"END",
+		]
 	}
 }
