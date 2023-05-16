@@ -54,6 +54,16 @@
 			"        uf[rx] = ry"
 		]
 	},
+	"Generate binary search loop":{
+		"scope": "python",
+		"prefix": "genBS",
+		"body": [
+			"left, right = 0, $1 - 1",
+			"while left <= right:",
+			"    mid = left + (right - left) // 2",
+			"    $2"
+		]
+	},
 	"SQL Select from":{
 		"scope": "sql",
 		"prefix": "SELECT_FROM",
