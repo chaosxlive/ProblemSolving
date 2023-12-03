@@ -1,17 +1,18 @@
 # https://leetcode.com/problems/max-consecutive-ones/
 
+from typing import List
+
+
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         result = 0
-        counter = 0
-        for index in range(len(nums)):
-            if nums[index] == 1:
-                counter += 1
-            else:
-                if counter > result:
-                    result = counter
-                counter = 0
-        if counter > result:
-            result = counter
-
+        i = 0
+        while True:
+            try:
+                j = nums.index(0, i)
+                result = max(result, j - i)
+                i = j + 1
+            except:
+                result = max(result, len(nums) - i)
+                break
         return result
