@@ -14,6 +14,8 @@ var areDeeplyEqual = function (o1, o2) {
     }
     if (o1 === null && o2 === null) {
         return true;
+    } else if (o1 === null || o2 === null) {
+        return false;
     }
     if (Array.isArray(o1) || Array.isArray(o2)) {
         if (!Array.isArray(o1) || !Array.isArray(o2) || o1.length !== o2.length) {

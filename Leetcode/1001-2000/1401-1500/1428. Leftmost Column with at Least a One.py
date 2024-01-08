@@ -1,16 +1,23 @@
 # https://leetcode.com/problems/leftmost-column-with-at-least-a-one/
 
+from typing import TYPE_CHECKING, List
 
-# """
-# This is BinaryMatrix's API interface.
-# You should not implement it, or speculate about its implementation
-# """
-# class BinaryMatrix(object):
-#     def get(self, row: int, col: int) -> int:
-#     def dimensions(self) -> list[]:
+if TYPE_CHECKING:
+    # """
+    # This is BinaryMatrix's API interface.
+    # You should not implement it, or speculate about its implementation
+    # """
+    class BinaryMatrix(object):
+
+        def get(self, row: int, col: int) -> int:
+            pass
+
+        def dimensions(self) -> List[int]:
+            pass
 
 
 class Solution:
+
     def leftMostColumnWithOne(self, binaryMatrix: 'BinaryMatrix') -> int:
         rowSize, colSize = binaryMatrix.dimensions()
         result = colSize
