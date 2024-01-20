@@ -6,6 +6,8 @@ import string
 
 class Solution:
     def maxPartitionsAfterOperations(self, s: str, k: int) -> int:
+        if k == 26:
+            return 1
 
         @lru_cache(None)
         def solve(first, i, isChanged):
