@@ -1,17 +1,20 @@
 # https://leetcode.com/problems/find-all-the-lonely-nodes/
 
-from typing import Optional, List
+from typing import Optional, List, TYPE_CHECKING
 
+if TYPE_CHECKING:
 
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+    # Definition for a binary tree node.
+    class TreeNode:
+
+        def __init__(self, val=0, left=None, right=None):
+            self.val = val
+            self.left = left
+            self.right = right
 
 
 class Solution:
+
     def getLonelyNodes(self, root: Optional[TreeNode]) -> List[int]:
 
         result = []

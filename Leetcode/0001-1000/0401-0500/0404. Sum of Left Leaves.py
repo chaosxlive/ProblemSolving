@@ -1,14 +1,20 @@
 # https://leetcode.com/problems/sum-of-left-leaves/
 
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+
+    # Definition for a binary tree node.
+    class TreeNode:
+
+        def __init__(self, val=0, left=None, right=None):
+            self.val = val
+            self.left = left
+            self.right = right
 
 
 class Solution:
+
     def sumOfLeftLeaves(self, root: TreeNode) -> int:
 
         def traversal(root, isLeft):
