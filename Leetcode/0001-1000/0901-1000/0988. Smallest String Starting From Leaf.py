@@ -1,13 +1,17 @@
 # https://leetcode.com/problems/smallest-string-starting-from-leaf/
 
 from string import ascii_lowercase
+from typing import TYPE_CHECKING, Optional
 
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+if TYPE_CHECKING:
+
+    # Definition for a binary tree node.
+    class TreeNode:
+
+        def __init__(self, val=0, left=None, right=None):
+            self.val = val
+            self.left = left
+            self.right = right
 
 
 class Solution:
@@ -29,4 +33,3 @@ class Solution:
         self.leaves.clear()
         self.findLeaves([], root)
         return min(self.leaves)
-        

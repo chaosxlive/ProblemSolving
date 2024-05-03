@@ -1,9 +1,11 @@
 # https://leetcode.com/problems/island-perimeter/
 
-import queue
+from collections import deque
+from typing import List
 
 
 class Solution:
+
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         row = col = 0
         while grid[row][col] == 0:
@@ -14,29 +16,28 @@ class Solution:
 
         visited = [[0 for col in range(len(grid[0]))] for row in range(len(grid))]
         result = 0
-        bfs = queue.SimpleQueue()
-        bfs.put([row, col])
+        dq = deque([[row, col]])
         visited[row][col] = 1
-        while not bfs.empty():
-            current = bfs.get()
-            if current[0] == 0 or (grid[current[0] - 1][current[1]]) == 0:
+        while dq:
+            r, c = dq.popleft()
+            if r == 0 or (grid[r - 1][c]) == 0:
                 result += 1
-            elif visited[current[0] - 1][current[1]] == 0:
-                bfs.put([current[0] - 1, current[1]])
-                visited[current[0] - 1][current[1]] = 1
-            if current[0] == len(grid) - 1 or (grid[current[0] + 1][current[1]]) == 0:
+            elif visited[r - 1][c] == 0:
+                dq.append([r - 1, c])
+                visited[r - 1][c] = 1
+            if r == len(grid) - 1 or (grid[r + 1][c]) == 0:
                 result += 1
-            elif visited[current[0] + 1][current[1]] == 0:
-                bfs.put([current[0] + 1, current[1]])
-                visited[current[0] + 1][current[1]] = 1
-            if current[1] == 0 or (grid[current[0]][current[1] - 1]) == 0:
+            elif visited[r + 1][c] == 0:
+                dq.append([r + 1, c])
+                visited[r + 1][c] = 1
+            if c == 0 or (grid[r][c - 1]) == 0:
                 result += 1
-            elif visited[current[0]][current[1] - 1] == 0:
-                bfs.put([current[0], current[1] - 1])
-                visited[current[0]][current[1] - 1] = 1
-            if current[1] == len(grid[0]) - 1 or (grid[current[0]][current[1] + 1]) == 0:
+            elif visited[r][c - 1] == 0:
+                dq.append([r, c - 1])
+                visited[r][c - 1] = 1
+            if c == len(grid[0]) - 1 or (grid[r][c + 1]) == 0:
                 result += 1
-            elif visited[current[0]][current[1] + 1] == 0:
-                bfs.put([current[0], current[1] + 1])
-                visited[current[0]][current[1] + 1] = 1
+            elif visited[r][c + 1] == 0:
+                dq.append([r, c + 1])
+                visited[r][c + 1] = 1
         return result
